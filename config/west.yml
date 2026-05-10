@@ -4,18 +4,13 @@ manifest:
       url-base: https://github.com/moergo-sc
     - name: ovandongen
       url-base: https://github.com/ovandongen
-    - name: srwi
-      url-base: https://github.com/srwi
   projects:
     - name: zmk
       remote: moergo-sc
       revision: main
       import: app/west.yml
-    - name: zmk-raw-hid
+    - name: zmk-hid-viz
       remote: ovandongen
       revision: main
-    - name: zmk-keypeek-layer-notifier
-      remote: srwi
-      revision: master
   self:
     path: config
