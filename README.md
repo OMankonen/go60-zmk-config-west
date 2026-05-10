@@ -1,4 +1,4 @@
-# `west`-based Custom ZMK Configuration for MoErgo Go60.
+# `west`-based Custom ZMK Configuration for MoErgo Go60
 
 ![MoErgo Logo](moergo_logo.png)
 
