@@ -531,12 +531,6 @@
             key-positions = <POS_RH_C5R1 POS_RH_C5R2>;
             bindings = <&kp F10>;
         };
-
-        combo_test_none {
-            key-positions = <54 59>;  // enter + space positions
-            bindings = <&none>;
-            timeout-ms = <50>;
-        };
     };
 };
 
