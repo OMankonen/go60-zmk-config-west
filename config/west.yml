@@ -1,15 +1,15 @@
 manifest:
   remotes:
-    - name: moergo-sc
-      url-base: https://github.com/moergo-sc
+    - name: darknao
+      url-base: https://github.com/darknao
     - name: zzeneg
       url-base: https://github.com/zzeneg
     - name: ovandongen
       url-base: https://github.com/ovandongen
   projects:
     - name: zmk
-      remote: moergo-sc
-      revision: main
+      remote: darknao
+      revision: rgb-layer-24.12
       import: app/west.yml
     - name: zmk-raw-hid
       remote: zzeneg
